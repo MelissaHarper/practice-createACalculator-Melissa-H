@@ -1,6 +1,6 @@
 const ask = require('readline-sync');
 let newCalculation;
-let numbers = [3, 78, -12, 0.5, 27];
+
 
 // Scenario: You are building a calculator for an online math game. The
 // calculator must include functionality to perform the following:
@@ -25,7 +25,6 @@ function findMaxAndMin(arr) {
     let values = [Math.min(...arr),  Math.max(...arr)]
     return (values);
 }
-console.log(findMaxAndMin(numbers));
 // ● Random Number Generator: Generate a random integer within a
 // specified range.
 function getRandomNumber(min, max) {
